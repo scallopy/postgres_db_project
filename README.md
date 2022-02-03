@@ -2,40 +2,49 @@
 
 ## postgres_db_project
 
-- github repo: `https://github.com/scallopy/postgres_db_project`
-
-- How to do that: `https://docs.google.com/document/d/1p6ubkmZDJ3SS7CMpqIYN5XP9snodKYh5sOyp9wkkaWg/edit#heading=h.5sl4klq4t07j`
+1. github repo: `https://github.com/scallopy/postgres_db_project`
+2. How to do that: `https://docs.google.com/document/d/1p6ubkmZDJ3SS7CMpqIYN5XP9snodKYh5sOyp9wkkaWg/edit#heading=h.5sl4klq4t07j`
 
 ## Project tasks:
 
-- requirements: PostgreSQL, Postbird
+1.requirements: PostgreSQL, Postbird
 
-- Research the topic of your choosing to create a entity relationship diagram for your database
+2.Research the topic of your choosing to create a entity relationship diagram for your database
 
 Let's create a database of e-commers.
 
-1. Create user to manage database
-2. Create tables for product, categories and stores with `create_tables.sql`
-3. Export database: backup1.sql
+- Create user to manage database
 
-- Create the schema of the database using PostgreSQL
+- Create tables for product, categories and stores with `create_tables.sql`
 
-1. Create db diagram with  [dbdiagram.io](https://dbdiagram.io/home)
+- Export database: backup1.sql
 
-- Save the Diagram as a PDF file: `db_diagram/Copy of Sample Ecommerce.pdf`
+3.Create the schema of the database using PostgreSQL
 
-- Export postgres sql file from dbdiagram.io
+- Create db diagram with  [dbdiagram.io](https://dbdiagram.io/home)
 
-- Populate your database with some data: `backup/backup2`.
+4.Save the Diagram as a PDF file: `db_diagram/Copy of Sample Ecommerce.pdf`
 
-- Update your database to ensure your data stays intact. This could include adding constraints and roles
+5.Export postgres sql file from dbdiagram.io
 
-- Update your database to ensure your database stays fast. This could include adding indexes, normalizing your database, and actively monitoring and maintaining your database:
+6.Populate your database with some data: `backup/backup2`.
 
-```
-backup/backup3
-```
+7.Update your database to ensure your data stays intact. This could include adding constraints and roles
 
-Tables:
+8.Update your database to ensure your database stays fast. This could include adding indexes, normalizing your database, and actively monitoring and maintaining your database:
+
+- `backup/backup3`
+
+## Tables:
 
 ![Table categories](images/table_categories.png)
+
+![Table customers](images/table_customers.png)
+
+![Table order_items](images/table_order_items.png)
+
+![Table orders](images/table_orders.png)
+
+![Table products](images/table_products.png)
+
+![Table stores](images/table_stores.png)
