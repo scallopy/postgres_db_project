@@ -3,7 +3,7 @@
 ## postgres_db_project
 
 1. github repo: `https://github.com/scallopy/postgres_db_project`
-2. How to do that: `https://docs.google.com/document/d/1p6ubkmZDJ3SS7CMpqIYN5XP9snodKYh5sOyp9wkkaWg/edit#heading=h.5sl4klq4t07j`
+2. [How I made my project, my issues and how to fix them](https://docs.google.com/document/d/1p6ubkmZDJ3SS7CMpqIYN5XP9snodKYh5sOyp9wkkaWg/edit#heading=h.5sl4klq4t07j`)
 
 ## Project tasks:
 
